@@ -174,7 +174,9 @@ See `requirements.txt` for exact versions.
 If you use this code or results in your work, please cite:
 
 ```
-[to be filled after publication]
+Opirskyy I. adversarial-iot-ids-transferability [Internet]. 
+GitHub; 2026. Available from: 
+https://github.com/IvanNULP/adversarial-iot-ids-transferability
 ```
 
 ---
