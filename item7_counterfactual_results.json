@@ -1,0 +1,198 @@
+{
+  "reassess_combinations": [
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "RS": 0.6603399733333334,
+      "TR_max": 2.743122200895713,
+      "ASR_cross": 0.5549999999999999
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "RS": 0.4385571777777778,
+      "TR_max": null,
+      "ASR_cross": null
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "RS": 0.8656409933333333,
+      "TR_max": 1.846240179573513,
+      "ASR_cross": 0.1253333333333333
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "RS": 0.8128442133333333,
+      "TR_max": 1.9023569023569018,
+      "ASR_cross": 0.1316666666666667
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "RS": 0.7107127866666666,
+      "TR_max": 1.6253443526170799,
+      "ASR_cross": null
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "RS": 0.65119754,
+      "TR_max": 2.1074380165289255,
+      "ASR_cross": null
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "RS": 0.37574248,
+      "TR_max": null,
+      "ASR_cross": null
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "RS": 0.25785491111111114,
+      "TR_max": null,
+      "ASR_cross": null
+    }
+  ],
+  "counterfactuals": [
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "single_metric_results": {
+        "TR_max": {
+          "candidate_value": 1.499999,
+          "relative_change": -0.45317820711370255,
+          "flips_to_deploy": false,
+          "resulting_decision": "REASSESS"
+        },
+        "ASR_cross": {
+          "candidate_value": 0.44999900000000004,
+          "relative_change": -0.18919099099099082,
+          "flips_to_deploy": false,
+          "resulting_decision": "REASSESS"
+        }
+      },
+      "counterfactual_type": "joint",
+      "joint_metrics": [
+        "TR_max",
+        "ASR_cross"
+      ],
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "single_metric_results": {
+        "RS": {
+          "candidate_value": 0.450001,
+          "relative_change": 0.026094253616391384,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "RS",
+      "minimal_relative_change": 0.026094253616391384,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "single_metric_results": {
+        "TR_max": {
+          "candidate_value": 1.499999,
+          "relative_change": -0.18753853556231004,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "TR_max",
+      "minimal_relative_change": -0.18753853556231004,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "single_metric_results": {
+        "TR_max": {
+          "candidate_value": 1.499999,
+          "relative_change": -0.2115049504424776,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "TR_max",
+      "minimal_relative_change": -0.2115049504424776,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "single_metric_results": {
+        "TR_max": {
+          "candidate_value": 1.499999,
+          "relative_change": -0.07711925932203384,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "TR_max",
+      "minimal_relative_change": -0.07711925932203384,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "single_metric_results": {
+        "TR_max": {
+          "candidate_value": 1.499999,
+          "relative_change": -0.2882357686274509,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "TR_max",
+      "minimal_relative_change": -0.2882357686274509,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "single_metric_results": {
+        "RS": {
+          "candidate_value": 0.450001,
+          "relative_change": 0.19763142032809278,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "RS",
+      "minimal_relative_change": 0.19763142032809278,
+      "resulting_decision": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "single_metric_results": {
+        "RS": {
+          "candidate_value": 0.450001,
+          "relative_change": 0.7451713370938745,
+          "flips_to_deploy": true,
+          "resulting_decision": "DEPLOY"
+        }
+      },
+      "counterfactual_type": "single-metric",
+      "minimal_metric": "RS",
+      "minimal_relative_change": 0.7451713370938745,
+      "resulting_decision": "DEPLOY"
+    }
+  ]
+}
