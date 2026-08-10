@@ -1,0 +1,2933 @@
+{
+  "thresholds": {
+    "RS_LOW": 0.45,
+    "TR_HIGH": 1.5,
+    "ASR_TRANSFER_HIGH": 0.45
+  },
+  "decision_margins": [
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.7992397600000002,
+      "TR_max": 1.0776014109347445,
+      "ASR_cross": 0.20433333333333337,
+      "binding_check": "ASR_cross",
+      "margin": 0.24566666666666664
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.6603399733333334,
+      "TR_max": 2.743122200895713,
+      "ASR_cross": 0.5549999999999999,
+      "binding_check": "ASR_cross",
+      "margin": -0.10499999999999993
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.4385571777777778,
+      "TR_max": NaN,
+      "ASR_cross": NaN,
+      "binding_check": "RS",
+      "margin": -0.011442822222222204
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.5627280577777778,
+      "TR_max": 0.8839601414336226,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": 0.6160398585663774
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.8656409933333333,
+      "TR_max": 1.846240179573513,
+      "ASR_cross": 0.1253333333333333,
+      "binding_check": "TR",
+      "margin": -0.34624017957351305
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.8128442133333333,
+      "TR_max": 1.9023569023569018,
+      "ASR_cross": 0.1316666666666667,
+      "binding_check": "TR",
+      "margin": -0.4023569023569018
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.595677648888889,
+      "TR_max": 0.9256694367497696,
+      "ASR_cross": 0.126,
+      "binding_check": "ASR_cross",
+      "margin": 0.324
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "decision": "DEPLOY_WITH_DEFENSE(FS)",
+      "binary": "DEPLOY",
+      "RS": 0.4500209777777778,
+      "TR_max": 1.7789001122334456,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": -0.2789001122334456
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.7107127866666666,
+      "TR_max": 1.6253443526170799,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": -0.12534435261707988
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.65119754,
+      "TR_max": 2.1074380165289255,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": -0.6074380165289255
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.4541056133333334,
+      "TR_max": 0.9356305336204837,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": 0.5643694663795163
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.4832903866666667,
+      "TR_max": 1.2042502951593859,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": 0.29574970484061414
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.46805304000000003,
+      "TR_max": 1.0117357561991291,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": 0.48826424380087086
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "decision": "DEPLOY",
+      "binary": "DEPLOY",
+      "RS": 0.47519472,
+      "TR_max": 1.0305528612997092,
+      "ASR_cross": NaN,
+      "binding_check": "TR",
+      "margin": 0.46944713870029076
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.37574248,
+      "TR_max": NaN,
+      "ASR_cross": NaN,
+      "binding_check": "RS",
+      "margin": -0.07425752000000002
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "decision": "REASSESS",
+      "binary": "REASSESS",
+      "RS": 0.25785491111111114,
+      "TR_max": NaN,
+      "ASR_cross": NaN,
+      "binding_check": "RS",
+      "margin": -0.19214508888888887
+    }
+  ],
+  "perturbation_trials": [
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "DEPLOY",
+      "flipped": true
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "DEPLOY",
+      "flipped": true
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "metric": "ASR_cross",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "DEPLOY",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "REASSESS",
+      "flipped": true
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "metric": "TR_max",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "DEPLOY",
+      "new_binary": "DEPLOY",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.01,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.02,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.05,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": 1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "metric": "RS",
+      "perturbation": 0.1,
+      "sign": -1,
+      "base_binary": "REASSESS",
+      "new_binary": "REASSESS",
+      "flipped": false
+    }
+  ],
+  "flip_rate_by_perturbation": [
+    {
+      "perturbation": 0.01,
+      "sum": 2,
+      "count": 68,
+      "mean": 0.029411764705882353
+    },
+    {
+      "perturbation": 0.02,
+      "sum": 2,
+      "count": 68,
+      "mean": 0.029411764705882353
+    },
+    {
+      "perturbation": 0.05,
+      "sum": 4,
+      "count": 68,
+      "mean": 0.058823529411764705
+    },
+    {
+      "perturbation": 0.1,
+      "sum": 7,
+      "count": 68,
+      "mean": 0.10294117647058823
+    }
+  ]
+}
