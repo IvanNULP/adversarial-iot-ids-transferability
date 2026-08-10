@@ -1,0 +1,162 @@
+{
+  "CIC-IDS 2017|CNN|FGSM": {
+    "ds": "CIC-IDS 2017",
+    "model": "CNN",
+    "attack": "FGSM",
+    "acc_clean": 0.9526666666666667,
+    "asr_before": 0.20766666666666667,
+    "asr_gn": 0.20399999999999996,
+    "clean_gn": 0.807,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|CNN|PGD": {
+    "ds": "CIC-IDS 2017",
+    "model": "CNN",
+    "attack": "PGD",
+    "acc_clean": 0.9526666666666667,
+    "asr_before": 0.28833333333333333,
+    "asr_gn": 0.20433333333333337,
+    "clean_gn": 0.8073333333333333,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|MLP|FGSM": {
+    "ds": "CIC-IDS 2017",
+    "model": "MLP",
+    "attack": "FGSM",
+    "acc_clean": 0.9883333333333333,
+    "asr_before": 0.44266666666666665,
+    "asr_gn": 0.20833333333333337,
+    "clean_gn": 0.843,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|MLP|PGD": {
+    "ds": "CIC-IDS 2017",
+    "model": "MLP",
+    "attack": "PGD",
+    "acc_clean": 0.9883333333333333,
+    "asr_before": 0.399,
+    "asr_gn": 0.20166666666666666,
+    "clean_gn": 0.8433333333333334,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|RF|FGSM": {
+    "ds": "CIC-IDS 2017",
+    "model": "RF",
+    "attack": "FGSM",
+    "acc_clean": 0.9983333333333333,
+    "asr_before": 0.20233333333333337,
+    "asr_gn": 0.20233333333333337,
+    "clean_gn": 0.7976666666666666,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|RF|PGD": {
+    "ds": "CIC-IDS 2017",
+    "model": "RF",
+    "attack": "PGD",
+    "acc_clean": 0.9983333333333333,
+    "asr_before": 0.20233333333333337,
+    "asr_gn": 0.20233333333333337,
+    "clean_gn": 0.7976666666666666,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|XGBoost|FGSM": {
+    "ds": "CIC-IDS 2017",
+    "model": "XGBoost",
+    "attack": "FGSM",
+    "acc_clean": 0.9983333333333333,
+    "asr_before": 0.2776666666666666,
+    "asr_gn": 0.30733333333333335,
+    "clean_gn": 0.6976666666666667,
+    "sigma": 0.05
+  },
+  "CIC-IDS 2017|XGBoost|PGD": {
+    "ds": "CIC-IDS 2017",
+    "model": "XGBoost",
+    "attack": "PGD",
+    "acc_clean": 0.9983333333333333,
+    "asr_before": 0.2603333333333333,
+    "asr_gn": 0.29400000000000004,
+    "clean_gn": 0.7003333333333334,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|CNN|FGSM": {
+    "ds": "UNSW-NB15",
+    "model": "CNN",
+    "attack": "FGSM",
+    "acc_clean": 0.9816666666666667,
+    "asr_before": 0.1226666666666667,
+    "asr_gn": 0.15033333333333332,
+    "clean_gn": 0.8986666666666666,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|CNN|PGD": {
+    "ds": "UNSW-NB15",
+    "model": "CNN",
+    "attack": "PGD",
+    "acc_clean": 0.9816666666666667,
+    "asr_before": 0.76,
+    "asr_gn": 0.2356666666666667,
+    "clean_gn": 0.8883333333333333,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|MLP|FGSM": {
+    "ds": "UNSW-NB15",
+    "model": "MLP",
+    "attack": "FGSM",
+    "acc_clean": 0.9823333333333333,
+    "asr_before": 0.08366666666666667,
+    "asr_gn": 0.09966666666666668,
+    "clean_gn": 0.943,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|MLP|PGD": {
+    "ds": "UNSW-NB15",
+    "model": "MLP",
+    "attack": "PGD",
+    "acc_clean": 0.9823333333333333,
+    "asr_before": 0.11133333333333328,
+    "asr_gn": 0.09633333333333338,
+    "clean_gn": 0.9406666666666667,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|RF|FGSM": {
+    "ds": "UNSW-NB15",
+    "model": "RF",
+    "attack": "FGSM",
+    "acc_clean": 0.98,
+    "asr_before": 0.1246666666666667,
+    "asr_gn": 0.13,
+    "clean_gn": 0.8896666666666667,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|RF|PGD": {
+    "ds": "UNSW-NB15",
+    "model": "RF",
+    "attack": "PGD",
+    "acc_clean": 0.98,
+    "asr_before": 0.1226666666666667,
+    "asr_gn": 0.127,
+    "clean_gn": 0.8963333333333333,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|XGBoost|FGSM": {
+    "ds": "UNSW-NB15",
+    "model": "XGBoost",
+    "attack": "FGSM",
+    "acc_clean": 0.9833333333333333,
+    "asr_before": 0.18666666666666665,
+    "asr_gn": 0.21599999999999997,
+    "clean_gn": 0.8093333333333333,
+    "sigma": 0.05
+  },
+  "UNSW-NB15|XGBoost|PGD": {
+    "ds": "UNSW-NB15",
+    "model": "XGBoost",
+    "attack": "PGD",
+    "acc_clean": 0.9833333333333333,
+    "asr_before": 0.29966666666666664,
+    "asr_gn": 0.23633333333333328,
+    "clean_gn": 0.8096666666666666,
+    "sigma": 0.05
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "features": [
+    "RS",
+    "TR_max",
+    "ASR_whitebox"
+  ],
+  "n_samples": 16,
+  "n_deploy": 8,
+  "n_reassess": 8,
+  "loo_results": [
+    {
+      "depth": 2,
+      "loo_accuracy": 0.625,
+      "n_distinct_trees": 7
+    },
+    {
+      "depth": 3,
+      "loo_accuracy": 0.6875,
+      "n_distinct_trees": 8
+    }
+  ],
+  "combos": [
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "RF",
+      "RS": 0.7992397600000002,
+      "TR_max": 1.0776014109347445,
+      "ASR_whitebox": 0.19979999999999998,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "XGBoost",
+      "RS": 0.6603399733333334,
+      "TR_max": 2.743122200895713,
+      "ASR_whitebox": 0.33886666666666665,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "MLP",
+      "RS": 0.4385571777777778,
+      "TR_max": 0.9868841970569416,
+      "ASR_whitebox": 0.556,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "CIC-IDS 2017",
+      "model": "CNN",
+      "RS": 0.5627280577777778,
+      "TR_max": 0.8839601414336226,
+      "ASR_whitebox": 0.4094,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "RF",
+      "RS": 0.8656409933333333,
+      "TR_max": 1.846240179573513,
+      "ASR_whitebox": 0.11723333333333334,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "XGBoost",
+      "RS": 0.8128442133333333,
+      "TR_max": 1.9023569023569018,
+      "ASR_whitebox": 0.17326666666666668,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "MLP",
+      "RS": 0.595677648888889,
+      "TR_max": 0.9256694367497696,
+      "ASR_whitebox": 0.3899333333333333,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "model": "CNN",
+      "RS": 0.4500209777777778,
+      "TR_max": 1.7789001122334456,
+      "ASR_whitebox": 0.5418888888888889,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "RF",
+      "RS": 0.7107127866666666,
+      "TR_max": 1.6253443526170799,
+      "ASR_whitebox": 0.2884333333333333,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "XGBoost",
+      "RS": 0.65119754,
+      "TR_max": 2.1074380165289255,
+      "ASR_whitebox": 0.34736666666666666,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "MLP",
+      "RS": 0.4541056133333334,
+      "TR_max": 0.9356305336204837,
+      "ASR_whitebox": 0.5439555555555555,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "Gotham IoT 2025",
+      "model": "CNN",
+      "RS": 0.4832903866666667,
+      "TR_max": 1.2042502951593859,
+      "ASR_whitebox": 0.5155777777777778,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "RF",
+      "RS": 0.46805304000000003,
+      "TR_max": 1.0117357561991291,
+      "ASR_whitebox": 0.3595333333333333,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "XGBoost",
+      "RS": 0.47519472,
+      "TR_max": 1.0305528612997092,
+      "ASR_whitebox": 0.37210000000000004,
+      "label": "DEPLOY"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "MLP",
+      "RS": 0.37574248,
+      "TR_max": 0.7992501704158146,
+      "ASR_whitebox": 0.5031777777777777,
+      "label": "REASSESS"
+    },
+    {
+      "dataset": "CIC-YNU-IoTMal 2026",
+      "model": "CNN",
+      "RS": 0.25785491111111114,
+      "TR_max": 1.1134564643799474,
+      "ASR_whitebox": 0.6628000000000001,
+      "label": "REASSESS"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "objectives": {
+    "objective_1": "ASR_gap = aardf_mean_ASR - naive_mean_ASR (minimize)",
+    "objective_2": "risk_exposure = 1 - naive_winner_flagged_frac (minimize)"
+  },
+  "grid": [
+    {
+      "RS_LOW": 0.35,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.25,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.35,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.25,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.35,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.31256666666666666,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.013369444444444434,
+      "risk_exposure": 0.5,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.35,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.25,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.75,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.35,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.25,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.75,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.0,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.0,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.31256666666666666,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.013369444444444434,
+      "risk_exposure": 0.25,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.0,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.36935277777777775,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.04341666666666666,
+      "risk_exposure": 0.0,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.31256666666666666,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.013369444444444434,
+      "risk_exposure": 0.25,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.25,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.2771611111111111,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.04877500000000001,
+      "risk_exposure": 0.5,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.2771611111111111,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.04877500000000001,
+      "risk_exposure": 0.5,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.25,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.2771611111111111,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.04877500000000001,
+      "risk_exposure": 0.5,
+      "pareto_optimal": false
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.2771611111111111,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.04877500000000001,
+      "risk_exposure": 0.5,
+      "pareto_optimal": false
+    }
+  ],
+  "pareto_optimal_set": [
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 2.5,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 2.0,
+      "naive_winner_flagged_frac": 0.5,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.24439166666666667,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.08154444444444442,
+      "risk_exposure": 0.5,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.45,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.31256666666666666,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.013369444444444434,
+      "risk_exposure": 0.25,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.4,
+      "TR_HIGH": 1.7,
+      "naive_winner_flagged_frac": 0.75,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.31256666666666666,
+      "aardf_lower_ASR": true,
+      "ASR_gap": -0.013369444444444434,
+      "risk_exposure": 0.25,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.5,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 1.3,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    },
+    {
+      "RS_LOW": 0.55,
+      "TR_HIGH": 1.5,
+      "naive_winner_flagged_frac": 1.0,
+      "naive_mean_ASR": 0.3259361111111111,
+      "aardf_mean_ASR": 0.34533611111111107,
+      "aardf_lower_ASR": false,
+      "ASR_gap": 0.019399999999999973,
+      "risk_exposure": 0.0,
+      "pareto_optimal": true
+    }
+  ],
+  "primary_config_is_pareto_optimal": false
+}
