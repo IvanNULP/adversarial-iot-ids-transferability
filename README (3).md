@@ -2,9 +2,9 @@
 
 This repository reproduces all experiments reported in the paper. The code is organized into three Google Colab notebooks that should be run in order:
 
-1. **Section6_Baseline_v2_CLEAN.ipynb** — preprocessing pipeline and baseline classifier training
-2. **Section7_Adversarial_v2_CLEAN.ipynb** — adversarial attack generation and transferability evaluation
-3. **Section7_Figures_v2_CLEAN.ipynb** — figure generation (Figures 6–12)
+1. **Section6_Baseline_v2_C.ipynb** — preprocessing pipeline and baseline classifier training
+2. **Section7_Adversarial_v2_C.ipynb** — adversarial attack generation and transferability evaluation
+3. **Section7_Figures_v2_C.ipynb** — figure generation (Figures 6–12)
 
 All intermediate results are saved to Google Drive after each step, so the notebooks can be interrupted and resumed without losing progress.
 
