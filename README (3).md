@@ -219,8 +219,8 @@ See `requirements.txt` for exact versions. The novelty package (Items 1–7) use
 If you use this code or results in your work, please cite:
 
 ```
-Opirskyy I., Susukailo [initial?]., Tyshyk [initial?]., Bortnik [initial?].,
-Nakonechnyy [initial?]., Parkhuts [initial?]., Kostiak [initial?]. 
+Opirskyy I., Susukailo V., Tyshyk I., Bortnik L.,
+Nakonechnyy Yu., Parkhuts L., Kostiak M. 
 A Knowledge-Based Method and Formal Model (AARDF) for Adversarial 
 Robustness Assessment and Defense Selection in Cross-Dataset IoT 
 Intrusion Detection Systems [software]. GitHub; 2026. Available from: 
